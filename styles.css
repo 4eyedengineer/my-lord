@@ -40,6 +40,8 @@ a.button:hover {
   background-size: 100% 110% !important;
   padding: 1.3em 2.1em;
   -webkit-transition: all 200ms linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .button.inverse {
   font-weight: bold;
@@ -52,9 +54,15 @@ a.button:hover {
   border-image-slice: 30%;
   border-image-width: 1;
   border-image-repeat: stretch;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 a.button.inverse:hover {
   background-size: 100% 1010% !important;
   border-image-slice: 3%;
   padding: 1.15em 2.1em;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
